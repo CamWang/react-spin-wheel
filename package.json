@@ -9,7 +9,6 @@
     "component"
   ],
   "files": [
-    "public",
     "dist",
     "README.md"
   ],
