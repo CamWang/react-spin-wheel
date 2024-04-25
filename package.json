@@ -1,9 +1,13 @@
 {
   "name": "react-spin-wheel",
   "private": false,
-  "version": "0.0.2",
+  "version": "0.0.3",
   "type": "module",
-  "keywords": ["spinwheel", "react", "component"],
+  "keywords": [
+    "spinwheel",
+    "react",
+    "component"
+  ],
   "files": [
     "public",
     "dist",
@@ -21,7 +25,7 @@
   "dependencies": {
     "react": "^16.8 || ^17 || ^18",
     "react-dom": "^16.8 || ^17 || ^18",
-    "react-spin-wheel": "^0.0.1"
+    "react-spin-wheel": "^0.0.2"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",

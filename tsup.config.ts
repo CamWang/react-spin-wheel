@@ -5,6 +5,6 @@ export default defineConfig({
   splitting: true,
   sourcemap: true,
   clean: true,
-  minify: false,
+  minify: true,
   dts: true
 })
