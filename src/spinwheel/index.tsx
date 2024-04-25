@@ -1,6 +1,6 @@
-import "./style.css";
 import { useState } from "react";
 import { ColorArray, SpinWheelProps } from "./types";
+import "./style.css";
 
 function createColorGenerator(colorArray?: ColorArray) {
   const colors: ColorArray = colorArray?.length
