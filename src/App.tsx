@@ -9,9 +9,6 @@ function App() {
         items={
           ["United States", "Brazil", "India", "China", "Russia", "Australia", "Japan", "Canada", "France", "Germany"]
         }
-        onFinishSpin={(item) => {
-          alert(item);
-        }}
       />
     </>
   )

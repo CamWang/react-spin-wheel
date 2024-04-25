@@ -1,6 +1,6 @@
 # react-spin-wheel
 
-<img width=300 src="https://github.com/CamWang/react-spin-wheel/blob/main/public/demo.png?raw=true">
+<img width=300 src="https://github.com/CamWang/react-spin-wheel/blob/main/public/demo.gif?raw=true">
 
 Simple React solution for a spin wheel game.
 
