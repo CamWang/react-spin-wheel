@@ -1,0 +1,99 @@
+.spin-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 20px auto;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.spin-container .spin-wheel {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background-color: #333;
+  border-radius: 50%;
+  box-sizing: border-box;
+}
+
+.spin-container .spin-button {
+  position: absolute;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background: linear-gradient(145deg, #ffffff, #e6e6e6);
+  color: #333;
+  font-size: 14px;
+  letter-spacing: 0.1rem;
+  line-break: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: solid 2px #ccc;
+  cursor: pointer;
+  user-select: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.spin-container .spin-button:hover {
+  background: linear-gradient(145deg, #f2f2f2, #ddd);
+}
+
+.spin-container .spin-button:active {
+  background: linear-gradient(145deg, #e0e0e0, #ccc);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2) inset;
+}
+
+.spin-container .spin-button:focus {
+  outline: none;
+}
+
+.spin-container .spin-button:disabled {
+  background: #ddd;
+  color: #aaa;
+}
+
+.spin-container .spin-button::before {
+  content: '';
+  background-color: white;
+  position: absolute;
+  top: -32px;
+  width: 16px;
+  height: 32px;
+  clip-path: polygon(50% 0%, 15% 100%, 85% 100%);
+  z-index: -1;
+}
+
+.spin-container .spin-wheel .option {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50%;
+  width: 50%;
+  transform-origin: bottom right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  user-select: none;
+}
+
+.spin-container .spin-wheel .option span {
+  position: relative;
+  color: #fff;
+  transform: rotate(45deg);
+  text-shadow: 0 0 3px #333;
+}
+
+a {
+  text-decoration: underline;
+  color: blue;
+}
