@@ -1,6 +1,6 @@
 import './App.css'
-import { SpinWheel } from "react-spin-wheel"
 import "react-spin-wheel/dist/index.css"
+import { SpinWheel } from './spinwheel';
 
 function App() {
 

@@ -24,8 +24,7 @@
   },
   "dependencies": {
     "react": "^16.8 || ^17 || ^18",
-    "react-dom": "^16.8 || ^17 || ^18",
-    "react-spin-wheel": "^0.0.2"
+    "react-dom": "^16.8 || ^17 || ^18"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
