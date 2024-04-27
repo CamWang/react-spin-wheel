@@ -71,4 +71,7 @@ export default App
 ```
 
 # Contact
+Github: [react-spin-wheel](https://github.com/CamWang/react-spin-wheel/tree/main/src/spinwheel)
 Email: camwang@outlook.com
+
+Feel free to raise issues

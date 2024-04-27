@@ -1,8 +1,12 @@
 {
   "name": "react-spin-wheel",
   "private": false,
-  "version": "0.0.5",
+  "version": "0.0.6",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "github:CamWang/react-spin-wheel"
+  },
   "keywords": [
     "spinwheel",
     "react",
